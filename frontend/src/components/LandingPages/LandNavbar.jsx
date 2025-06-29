@@ -54,7 +54,7 @@ function LandingNavbar() {
           <div className="">Loading...</div>
         ) : (
           <>
-            <div className={`flex justify-between items-center playfair transition-all duration-200 ease-in z-50 ${isScrolled && 'shadow-lg bg-slate-50 top-0 sticky'}`}>
+            <div className={`flex justify-between items-center playfair transition-all duration-200 ease-in z-50 bg-gradient-to-r from-slate-100 via-pink-100 to-orange-100 ${isScrolled && 'shadow-lg bg-slate-50 top-0 sticky'}`}>
               <div className='flex items-center my-2 mx-3 p-1 gap-3 max-sm:my-0.5 max-sm:mx-1'>
                 <img
                   src={Logo}

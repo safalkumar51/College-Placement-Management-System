@@ -5,7 +5,7 @@ function LandFooter() {
   return (
     <>
       <div className="container">
-        <footer className="py-3 my-4">
+        <footer className="bg-gradient-to-r from-slate-100 via-pink-100 to-orange-100 py-3 my-4">
           <ul className="nav justify-content-center border-bottom pb-3 mb-3">
             <li className="nav-item"><a href="#home" className="nav-link px-2 text-body-secondary">Home</a></li>
             <li className="nav-item"><a href="#about" className="nav-link px-2 text-body-secondary">About</a></li>
