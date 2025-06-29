@@ -97,7 +97,7 @@ function Layout({ header }) {
 
   return (
     <>
-      <div className="flex flex-col dark bg-gray-900 text-white min-h-screen">
+      <div className="flex flex-col dark min-h-screen">
         <Navbar isSidebarVisible={isSidebarVisible} toggleSidebar={toggleSidebar} />
         <div className="flex flex-grow">
           <Sidebar isSidebarVisible={isSidebarVisible} />

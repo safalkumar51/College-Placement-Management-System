@@ -9,9 +9,9 @@ app.use(cors());
 app.use(express.json());
 
 // public folder for users profile
-app.use('/profileImgs', express.static(path.join(__dirname, 'public/profileImgs')));
-app.use('/resume', express.static(path.join(__dirname, 'public/resumes')));
-app.use('/offerLetter', express.static(path.join(__dirname, 'public/offerLetter')));
+app.use('/api/v1/profileImgs', express.static(path.join(__dirname, 'public/profileImgs')));
+app.use('/api/v1/resume', express.static(path.join(__dirname, 'public/resumes')));
+app.use('/api/v1/offerLetter', express.static(path.join(__dirname, 'public/offerLetter')));
 
 // database import 
 const mongodb = require('./config/MongoDB.js');
